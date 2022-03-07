@@ -8,7 +8,7 @@ from tensorflow import keras
 from tensorflow.keras.layers import Dense, Flatten, Dropout, Conv2D, MaxPooling2D
 
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
-
+#llkjkkjh
 # стандартизация входных данных
 x_train = x_train / 255
 x_test = x_test / 255
