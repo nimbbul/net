@@ -44,7 +44,7 @@ def deprocess_img(processed_img):  # переводим обратно в фор
     x[:, :, 2] += 123.68 # R
     x = x[:, :, ::-1] # и ставим по порядку RGB
 #llll
-
+#llllllll
     x = np.clip(x, 0, 255).astype('uint8') # отбрасываем все что меньше 0 или больше 255
     return x
 
